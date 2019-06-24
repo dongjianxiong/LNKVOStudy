@@ -15,6 +15,11 @@
 		921418C1214B951F00597F35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 921418C0214B951F00597F35 /* main.m */; };
 		921418CB214B951F00597F35 /* LNKVOStudyOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 921418CA214B951F00597F35 /* LNKVOStudyOCTests.m */; };
 		921418D6214B951F00597F35 /* LNKVOStudyOCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 921418D5214B951F00597F35 /* LNKVOStudyOCUITests.m */; };
+		921AA6082150D676004DD9FC /* NSObject+LNCustomKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 921AA6072150D676004DD9FC /* NSObject+LNCustomKVO.m */; };
+		921AA60B2150E9DF004DD9FC /* LNFatTiger.m in Sources */ = {isa = PBXBuildFile; fileRef = 921AA60A2150E9DF004DD9FC /* LNFatTiger.m */; };
+		92A7F3B321BF7B8A001249F1 /* NSObject+Hellokitty.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A7F3B221BF7B8A001249F1 /* NSObject+Hellokitty.m */; };
+		92AF172A218BFD0700EBBC24 /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AF1727218BFD0700EBBC24 /* OpenUDID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		92AF172B218BFD0700EBBC24 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 92AF1728218BFD0700EBBC24 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,15 @@
 		921418D1214B951F00597F35 /* LNKVOStudyOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LNKVOStudyOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		921418D5214B951F00597F35 /* LNKVOStudyOCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNKVOStudyOCUITests.m; sourceTree = "<group>"; };
 		921418D7214B951F00597F35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		921AA6062150D676004DD9FC /* NSObject+LNCustomKVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+LNCustomKVO.h"; sourceTree = "<group>"; };
+		921AA6072150D676004DD9FC /* NSObject+LNCustomKVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LNCustomKVO.m"; sourceTree = "<group>"; };
+		921AA6092150E9DF004DD9FC /* LNFatTiger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNFatTiger.h; sourceTree = "<group>"; };
+		921AA60A2150E9DF004DD9FC /* LNFatTiger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNFatTiger.m; sourceTree = "<group>"; };
+		92A7F3B121BF7B8A001249F1 /* NSObject+Hellokitty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Hellokitty.h"; sourceTree = "<group>"; };
+		92A7F3B221BF7B8A001249F1 /* NSObject+Hellokitty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Hellokitty.m"; sourceTree = "<group>"; };
+		92AF1727218BFD0700EBBC24 /* OpenUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenUDID.m; sourceTree = "<group>"; };
+		92AF1728218BFD0700EBBC24 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		92AF1729218BFD0700EBBC24 /* OpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenUDID.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +115,7 @@
 		921418B0214B951E00597F35 /* LNKVOStudyOC */ = {
 			isa = PBXGroup;
 			children = (
+				92AF1726218BFD0700EBBC24 /* OpenUDID */,
 				921418B1214B951E00597F35 /* AppDelegate.h */,
 				921418B2214B951E00597F35 /* AppDelegate.m */,
 				921418B4214B951E00597F35 /* ViewController.h */,
@@ -110,6 +125,12 @@
 				921418BC214B951F00597F35 /* LaunchScreen.storyboard */,
 				921418BF214B951F00597F35 /* Info.plist */,
 				921418C0214B951F00597F35 /* main.m */,
+				92A7F3B121BF7B8A001249F1 /* NSObject+Hellokitty.h */,
+				92A7F3B221BF7B8A001249F1 /* NSObject+Hellokitty.m */,
+				921AA6062150D676004DD9FC /* NSObject+LNCustomKVO.h */,
+				921AA6072150D676004DD9FC /* NSObject+LNCustomKVO.m */,
+				921AA6092150E9DF004DD9FC /* LNFatTiger.h */,
+				921AA60A2150E9DF004DD9FC /* LNFatTiger.m */,
 			);
 			path = LNKVOStudyOC;
 			sourceTree = "<group>";
@@ -131,6 +152,16 @@
 			);
 			path = LNKVOStudyOCUITests;
 			sourceTree = "<group>";
+		};
+		92AF1726218BFD0700EBBC24 /* OpenUDID */ = {
+			isa = PBXGroup;
+			children = (
+				92AF1729218BFD0700EBBC24 /* OpenUDID.h */,
+				92AF1727218BFD0700EBBC24 /* OpenUDID.m */,
+				92AF1728218BFD0700EBBC24 /* README.md */,
+			);
+			path = OpenUDID;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -237,6 +268,7 @@
 			files = (
 				921418BE214B951F00597F35 /* LaunchScreen.storyboard in Resources */,
 				921418BB214B951F00597F35 /* Assets.xcassets in Resources */,
+				92AF172B218BFD0700EBBC24 /* README.md in Resources */,
 				921418B9214B951E00597F35 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +295,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				921418B6214B951E00597F35 /* ViewController.m in Sources */,
+				921AA60B2150E9DF004DD9FC /* LNFatTiger.m in Sources */,
+				92A7F3B321BF7B8A001249F1 /* NSObject+Hellokitty.m in Sources */,
+				921AA6082150D676004DD9FC /* NSObject+LNCustomKVO.m in Sources */,
+				92AF172A218BFD0700EBBC24 /* OpenUDID.m in Sources */,
 				921418C1214B951F00597F35 /* main.m in Sources */,
 				921418B3214B951E00597F35 /* AppDelegate.m in Sources */,
 			);
